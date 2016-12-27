@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Owl Carousel Wordpeess Shortcode\n"
-"POT-Creation-Date: 2016-12-24 19:51+0330\n"
-"PO-Revision-Date: 2016-12-24 19:57+0330\n"
+"POT-Creation-Date: 2016-12-27 23:29+0330\n"
+"PO-Revision-Date: 2016-12-27 23:30+0330\n"
 "Last-Translator: \n"
 "Language-Team: Islet Software Group <s.samadzadeh@islet.ir>\n"
 "Language: fa_IR\n"
@@ -16,60 +16,60 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: owl-carousel-shortcodes.php:4 owl-carousel-shortcodes.php:75
-msgid "Owl Carousel Shortcodes"
+#: owl-carousel-shortcodes.php:4 owl-carousel-shortcodes.php:77
+msgid "Simple Owl Shortcodes"
 msgstr "کدکوتاه Owl کِروسل"
 
 #: owl-carousel-shortcodes.php:6
 msgid ""
-"A simple Owl Carousel shortcode generator. Add casousel Wrapper, casousel "
+"A simple shortcode generator for Owl Carousel. Add carousel Wrapper, carousel "
 "Items and options to your theme."
 msgstr ""
 "تولید کدکوتاه ساده برای Owl کِروسل. قاب کِروسل،  اقلام میان هر کِروسل و تنظیمات "
 "ساده آن‌را به پوسته‌ی شما می‌افزاید."
 
-#: owl-carousel-shortcodes.php:95
-msgid "Owl Carousel Shortcodes Options"
+#: owl-carousel-shortcodes.php:97
+msgid "Simple Owl Shortcodes Options"
 msgstr "گزینه‌های کدکوتاه Owl کِروسل"
 
-#: owl-carousel-shortcodes.php:102
+#: owl-carousel-shortcodes.php:104
 msgid "Owl Carousel 2 CSS"
 msgstr "استایل Owl کِروسل ۲"
 
-#: owl-carousel-shortcodes.php:104
+#: owl-carousel-shortcodes.php:106
 msgid "Load Owl Carousel 2 css file"
 msgstr "بارگذاری فایل استایل Owl کِروسل ۲"
 
-#: owl-carousel-shortcodes.php:104
+#: owl-carousel-shortcodes.php:106
 msgid "Uncheck this if you already include Owl Carousel css on your template"
 msgstr ""
 "اگر قبلا فایل استایل Owl کِروسل ۲ را در الگوی خود بارگذاری کرده‌اید، تیک این "
 "گزینه را بردارید."
 
-#: owl-carousel-shortcodes.php:108
+#: owl-carousel-shortcodes.php:110
 msgid "Owl Carousel 2 JS"
 msgstr "جاوااسکریپت  Owl کِروسل ۲"
 
-#: owl-carousel-shortcodes.php:110
+#: owl-carousel-shortcodes.php:112
 msgid "Load Owl Carousel 2 javascript file"
 msgstr "بارگذاری فایل جاوااسکریپت  Owl کِروسل ۲"
 
-#: owl-carousel-shortcodes.php:110
+#: owl-carousel-shortcodes.php:112
 msgid ""
 "Uncheck this if you already include Owl Carousel javascript on your template"
 msgstr ""
 "اگر قبلا فایل جاوااسکریپت  Owl کِروسل ۲ را در الگوی خود بارگذاری کرده‌اید، تیک "
 "این گزینه را بردارید."
 
-#: owl-carousel-shortcodes.php:114
+#: owl-carousel-shortcodes.php:116
 msgid "Attachment script"
 msgstr "اسکریپت پیکربندی"
 
-#: owl-carousel-shortcodes.php:116
+#: owl-carousel-shortcodes.php:118
 msgid "Load attachment script file"
 msgstr "بارگذاری فایل اسکریپت پیکربندی"
 
-#: owl-carousel-shortcodes.php:116
+#: owl-carousel-shortcodes.php:118
 msgid ""
 "Uncheck this if you already have customized Owl Carousel attachment script on "
 "your template"
@@ -77,13 +77,26 @@ msgstr ""
 "اگر قبلا به صورت سفارشی Owl کِروسل ۲ را به تگ‌های خود الصاق و پیکربندی کرده‌اید، "
 "تیک این گزینه را بردارید."
 
-#: owl-carousel-shortcodes.php:120
+#: owl-carousel-shortcodes.php:122
 msgid "Attachment script preview"
 msgstr "پیش‌نمایش اسکریپت پیکربندی"
 
-#: owl-carousel-shortcodes.php:133
+#: owl-carousel-shortcodes.php:135
 msgid "Save Changes"
 msgstr "ذخیره تغییرات"
+
+#~ msgid "Owl Carousel Shortcodes"
+#~ msgstr "کدکوتاه Owl کِروسل"
+
+#~ msgid ""
+#~ "A simple Owl Carousel shortcode generator. Add casousel Wrapper, casousel "
+#~ "Items and options to your theme."
+#~ msgstr ""
+#~ "تولید کدکوتاه ساده برای Owl کِروسل. قاب کِروسل،  اقلام میان هر کِروسل و "
+#~ "تنظیمات ساده آن‌را به پوسته‌ی شما می‌افزاید."
+
+#~ msgid "Owl Carousel Shortcodes Options"
+#~ msgstr "گزینه‌های کدکوتاه Owl کِروسل"
 
 #~ msgid "Owl Carousel attachment script"
 #~ msgstr "اسکریپت الصاق  Owl کِروسل ۲"

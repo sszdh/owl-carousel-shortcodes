@@ -73,7 +73,7 @@ class OwlsShortcodes {
   }
 
   function register_settings_page() {
-    add_options_page( esc_html__( 'Owl Carousel Shortcodes', 'owl-carousel-shortcodes' ), esc_html__( 'Owl Carousel Shortcodes', 'owl-carousel-shortcodes' ), 'manage_options', __FILE__, array( &$this, 'render_form') );
+    add_options_page( esc_html__( 'Simple Owl Shortcodes', 'owl-carousel-shortcodes' ), esc_html__( 'Simple Owl Shortcodes', 'owl-carousel-shortcodes' ), 'manage_options', __FILE__, array( &$this, 'render_form') );
   }
 
   function set_options_defaults() {
@@ -93,7 +93,7 @@ class OwlsShortcodes {
     ?>
     <div class="wrap" id="owls-options">
       <div class="icon32" id="icon-options-general"><br></div>
-      <h2><?php esc_html_e('Owl Carousel Shortcodes Options', 'owl-carousel-shortcodes')?></h2>
+      <h2><?php esc_html_e('Simple Owl Shortcodes Options', 'owl-carousel-shortcodes')?></h2>
       <form method="post" action="options.php">
         <?php settings_fields( 'owls_plugin_options' ); ?>
         <?php $options = get_option( 'owls_options'); ?>
