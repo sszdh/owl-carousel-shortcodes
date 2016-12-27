@@ -7,7 +7,7 @@ Stable tag: 4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Simple Owl Carousel shortcode generator. Add carousel Wrapper, carousel Items and options to your theme.
+A simple shortcode generator for Owl Carousel. Add carousel Wrapper, carousel Items and options to your theme.
 
 == Description ==
 
