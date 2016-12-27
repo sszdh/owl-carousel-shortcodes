@@ -1,5 +1,5 @@
 === Owl Carousel Shortcodes ===
-Contributors: soheilislet
+Contributors: sszdh
 Tags: wordpress, owl carousel, shortcode
 Requires at least: 3.0.1
 Tested up to: 4.7
@@ -7,7 +7,7 @@ Stable tag: 4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple Owl Carousel shortcode generator. Add casousel Wrapper, casousel Items and options to your theme.
+A simple Owl Carousel shortcode generator. Add carousel Wrapper, carousel Items and options to your theme.
 
 == Description ==
 
