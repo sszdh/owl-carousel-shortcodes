@@ -1,0 +1,10 @@
+/* */
+
+.mce-i-owls-wrapper {
+  background: url(../images/owl_wrapper.png) no-repeat !important;
+
+}
+
+.mce-i-owls-item {
+  background: url(../images/owl_item.png) no-repeat !important;
+}
