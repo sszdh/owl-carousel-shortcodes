@@ -13,7 +13,8 @@ $(document).ready(function($) {
 
         owlWrap.each(function() {
         var carousel= $(this).find('.owl-carousel'),
-            dataCentered = carousel.attr('data-centered') || false,
+            dataCentered = Boolean(carousel.attr('data-centered')) || false,
+            dataRtl = Boolean(carousel.attr('data-rtl')) || false,
             dataNum = dataNum2 = dataNum3 = carousel.attr('data-num') || 1,
             dataNum2,
             dataNum3;
@@ -27,7 +28,7 @@ $(document).ready(function($) {
         }
 
         carousel.owlCarousel({
-            rtl:true,
+            rtl: dataRtl,
             margin:10,
             center: dataCentered,
             responsiveClass:true,

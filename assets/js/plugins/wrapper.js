@@ -17,11 +17,16 @@
             name: 'iscentered',
             checked: false,
             label: 'Is Centered?'
+          },{
+            type: 'checkbox',
+            name: 'isrtl',
+            checked: true,
+            label: 'Is RTL?'
           }],
           onsubmit: function(e) {
             // Insert content when the window form is submitted
             var uID = guid();
-            var shortcode = '[owls_wrapper num="'+ e.data.itemnum +'" centered="'+ e.data.iscentered +'" id="owl_wrapper_' + uID + '"]<br class="nc"/>[/owls_wrapper]';
+            var shortcode = '[owls_wrapper num="'+ e.data.itemnum +'" centered="'+ e.data.iscentered +'" rtl="'+ e.data.isrtl +'" id="owl_wrapper_' + uID + '"]<br class="nc"/>[/owls_wrapper]';
             editor.insertContent(shortcode);
           }
         });
