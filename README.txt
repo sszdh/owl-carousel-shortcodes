@@ -18,15 +18,21 @@ This plugin used to add any item in OwlCarousel wrapper with configurable option
 To install Simple Owl Shortcodes
 
 1- Use WordPress' built-in installer
+
 2- Access the "Simple Owl Shortcodes" menu option under Settings.
 
 == Screenshots ==
 
 1- The rendered Owl Carousel Items as they would appear with a default CSS in theme.
+
 2- Enable the Simple Owl Shortcodes icons by toggling the Advanced Editor Toolbar.
+
 3- Custom buttons added to the TinyMCE visual editor for adding shortcodes to content.
+
 4- The Carousel Wrapper tool for adding wrapper with configurations.
+
 5- The Carousel Item tool for adding carousel's item container to content.
+
 6- You can add anything (Image, HTML, Video, etc.) between [owls_item]...[/owls_item] shortcode.
 
 == Changelog ==
