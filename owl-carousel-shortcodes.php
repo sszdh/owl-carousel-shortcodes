@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: Simple Owl Shortcodes
-Plugin URI: https://github.com/sszhd/owl-carousel-shortcodes
+Plugin URI: https://github.com/sszdh/owl-carousel-shortcodes
 Description: A simple shortcode generator for Owl Carousel. Add carousel Wrapper, carousel Items and options to your theme.
-Version: 2.1.0
+Version: 2.1.1
 Author: Soheil Samadzadeh <s.samadzadeh@islet.ir>
 Author URI: http://www.islet.ir
 Text Domain: owl-carousel-shortcodes
