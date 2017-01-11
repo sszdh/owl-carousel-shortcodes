@@ -4,7 +4,7 @@
 Plugin Name: Simple Owl Shortcodes
 Plugin URI: https://github.com/sszhd/owl-carousel-shortcodes
 Description: A simple shortcode generator for Owl Carousel. Add carousel Wrapper, carousel Items and options to your theme.
-Version: 1.0.0
+Version: 2.1.0
 Author: Soheil Samadzadeh <s.samadzadeh@islet.ir>
 Author URI: http://www.islet.ir
 Text Domain: owl-carousel-shortcodes
@@ -34,11 +34,11 @@ class OwlsShortcodes {
 
     if( !is_admin() ) {
       if( isset( $options[ 'chk_default_options_css' ] ) && $options[ 'chk_default_options_css' ] ) {
-        wp_enqueue_style( 'owls_css', plugins_url( 'libs/owlcarousel/assets/owl.carousel.min.css', __FILE__ ) );
-        wp_enqueue_style( 'owls_theme', plugins_url( 'libs/owlcarousel/assets/owl.theme.default.min.css', __FILE__ ) );
+        wp_enqueue_style( 'owls_css', plugins_url( 'assets/libs/owlcarousel/assets/owl.carousel.min.css', __FILE__ ) );
+        wp_enqueue_style( 'owls_theme', plugins_url( 'assets/libs/owlcarousel/assets/owl.theme.default.min.css', __FILE__ ) );
       }
       if( isset( $options[ 'chk_default_options_js' ]) && $options[ 'chk_default_options_js' ] ) {
-        wp_enqueue_script( 'owls_js', plugins_url( 'libs/owlcarousel/owl.carousel.min.js', __FILE__ ) , array( 'jquery' ) );
+        wp_enqueue_script( 'owls_js', plugins_url( 'assets/libs/owlcarousel/owl.carousel.min.js', __FILE__ ) , array( 'jquery' ) );
       }
       if( isset( $options[ 'chk_defualt_options_script' ]) && $options[ 'chk_default_options_script' ]){
         wp_enqueue_script( 'owls_script', plugins_url( 'assets/js/script.js', __FILE__ ) , array( 'jquery' ) );
